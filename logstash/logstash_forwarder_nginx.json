@@ -1,0 +1,19 @@
+{
+  "network": {
+    "servers": [
+      "logstash:5000"
+    ],
+    "timeout": 15,
+    "ssl ca": "/etc/ssl/certs/pipebug_elk.crt"
+  },
+  "files": [
+    {
+      "paths": [
+        "/var/log/nginx/access-detailed.log"
+      ],
+      "fields": {
+        "type": "access"
+      }
+    }
+  ]
+}
