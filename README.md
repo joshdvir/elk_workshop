@@ -36,6 +36,12 @@ docker-machine ip dev
 
 Go to http://[```docker-machine ip dev```]:5601/
 
+Or run on OSX
+
+```
+open http://`docker-machine ip dev`:5601
+```
+
 
 # Lets go over the files and see how it's done!!!
 
