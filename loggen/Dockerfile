@@ -17,4 +17,4 @@ ADD logstash-forwarder.conf /data/logstash-forwarder.conf
 
 VOLUME /data
 
-CMD apache-loggen --limit=500000 --rate=10 | /data/logstash-forwarder_linux_386 -config logstash-forwarder.conf
+CMD apache-loggen --limit=500000 --rate=200 | /data/logstash-forwarder_linux_386 -config logstash-forwarder.conf
