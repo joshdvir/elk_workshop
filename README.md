@@ -38,3 +38,8 @@ Go to http://[```docker-machine ip dev```]:5601/
 
 
 # Lets go over the files and see how it's done!!!
+
+
+### Reference
+
+http://lucene.apache.org/core/3_5_0/queryparsersyntax.html
