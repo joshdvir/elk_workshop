@@ -26,7 +26,7 @@ docker-compose up
 
 Everything should be running now
 
-Get the IP of the maching
+Get the IP of the VM
 
 ```
 docker-machine ip dev
