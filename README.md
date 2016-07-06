@@ -14,7 +14,9 @@ Install Docker using the *getting started* guide on Docker website, set it up fo
 
 ## Very Quick Start
 
-Run these commands and you are done
+Make sure you have docker-machine installed, create a new machine called "dev" (that's what I use), and start it.
+
+Then run these commands and you are done
 
 ```
 git clone https://github.com/joshdvir/elk_workshop.git
